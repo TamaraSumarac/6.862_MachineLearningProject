@@ -16,8 +16,8 @@ In this project I would like to compare an energy consumption estimate for diffe
 
 #### GitHub repository description:
 This Github repository is organized in the following way:
-* Writeup folder:
-  This folder contants the writeups I did for the project that contains Project_preproposal, Project_proposal and Project_milestone_report. Detailed writeup on the motivation, data description, methods used and results could be found in those files.
+* Writeup folder:  
+This folder contants the writeups I did for the project that contains Project_preproposal, Project_proposal and Project_milestone_report. Detailed writeup on the motivation, data description, methods used and results could be found in those files.
 * BuildingEnergyConsumption folder:
   This folder is split into Data folder and Code folder. Data folder in this repository is empty, just because the data is really large (~2GB-3GB). The data can be downloaded from the following website: https://www.kaggle.com/c/ashrae-energy-prediction/data and for this code to work, one would have to place downloaded data into Code folder. When data is downloaded from the website it is downloaded into the folder called: ashrae-energy-prediction, and this entire folder should be placed in Data folder for this code to work. Code folder contains all the codes I wrote for this project. Files ending in .py contain helper functions I use in my main codes. Codes starting with word Development are the ones I was using when I was developing main codes, and they contain a lot of my skratch work. DataExploration code is code that I used to play with this data to understand it better. LinearRegression is the main code I used to make predictions with linear regression. 
 
