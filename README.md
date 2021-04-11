@@ -11,7 +11,7 @@ One of the biggest problems facing the world today is global warming. Production
 In this project I would like to use the data: https://www.kaggle.com/c/ashrae-energy-prediction/data of historic usage rates and observed weather over one year period across thousands of buildings in order to predict how much energy would these buildings consume in the future. Buildings are labeled by their primary use (e.g. office, educational building), square footage and year they were built, and we have historic data on the usage of these buildings across the areas such as chilled water, electricity, hot water, and steam meters. In addition to building usage data, we also have a data on weather features such as temperature, humidity and wind, that could be linked to the building usage data given building site id.
 
 #### Methods used:
-In this project I would like to compare an estimate 
+In this project I would like to compare an energy consumption estimate for different learning methods such as linear regression and LSTM recurrent neural network. 
 
 
 #### GitHub repository description:
