@@ -11,10 +11,10 @@ One of the biggest problems facing the world today is global warming. Production
 In this project I would like to use the data: https://www.kaggle.com/c/ashrae-energy-prediction/data of historic usage rates and observed weather over one year period across thousands of buildings in order to predict how much energy would these buildings consume in the future. Buildings are labeled by their primary use (e.g. office, educational building), square footage and year they were built, and we have historic data on the usage of these buildings across the areas such as chilled water, electricity, hot water, and steam meters. In addition to building usage data, we also have a data on weather features such as temperature, humidity and wind, that could be linked to the building usage data given building site id. I would like to use linear regression model and LSTM recurrent neural network model in order to make this prediction, and I would like to gain intuition on which model does better and by how much. I would also like to understand how different feature encodings change the prediction values.
 
 
-#### GitHub repository description:
+#### GitHub repository structure:
 This Github repository is organized in the following way:
 * **Writeup folder**:  
-This folder contants the writeups I did for the project that contains Project_preproposal, Project_proposal and Project_milestone_report. Detailed writeup on the motivation, data description, methods used and results could be found in those files. I encourage the reader of this repository to do that before looking at the codes.
+This folder contants the writeups I did for the project that contains Project_preproposal, Project_proposal and Project_milestone_report. Detailed writeup on the motivation, data description, methods used and results could be found in those files. I encourage reader of this repository to do that before looking at the codes.
 * **BuildingEnergyConsumption folder**:  
 This folder is split into Data folder and Code folder:
   * **Data** folder in this repository is empty, just because the data is really large (~2GB-3GB). The data can be downloaded from the following website: https://www.kaggle.com/c/ashrae-energy-prediction/data and for this code to work, one would have to place downloaded data into the Data folder. When data is downloaded from the website it is downloaded into the folder called: ashrae-energy-prediction, and this entire folder should be placed in Data folder for this code to work. 
