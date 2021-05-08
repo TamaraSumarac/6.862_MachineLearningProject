@@ -1,6 +1,5 @@
 ## General information
 
-The **main code** of this folder is **RegressionModels.ipynb** that I used to understand different regression modeling. 
+The **main codes** of this folder is **RegressionModels.ipynb** that I used to understand different regression modeling and **LSTMmodels.ipynb** that I used to make predictions using several LSTM based models. 
 * Files ending in .py contain helper functions I use in my main codes. 
-* Codes starting with word Development are the ones I was using when I was developing main codes, and they contain a lot of my skratch work. 
-* DataExploration code is code that I used to play with this data to understand it better. 
+* Codes in Development folder are the ones I was using when I was developing main codes, and they contain a lot of my skratch work. 
